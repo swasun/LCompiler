@@ -1,5 +1,9 @@
 A simple compiler for the toy language L. It converts .l files to MIPS (old school project, Compilation class, 2016).
 
+The goal of the project is the implementation of the "Language L", a fictive programming language, resembling C language, with for main functionalities the integer and array manipulations.
+
+The lexical/syntactic/semantic analysis works correctly, but the MIPS part only works partially (only the file with the main function and using exclusively global variables).
+
 ## Usage
 
 ```
@@ -31,6 +35,7 @@ Usage: ./bin/l_compiler -f <source_file_name> | --file <source_file_name> | -d <
 * stdin read
 * stdout write
 * arithmetics
+* local vs global scope
 
 ## Error detection
 

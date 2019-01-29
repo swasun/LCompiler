@@ -4,7 +4,7 @@ The goal of the project is the implementation of the "Language L", a fictive pro
 
 The lexical/syntactic/semantic analysis works correctly, but the MIPS part only works partially (only the file with the main function and using exclusively global variables).
 
-## Usage
+# Usage
 
 ```
 mkdir obj && mkdir bin && make
@@ -20,7 +20,7 @@ Usage: ./bin/l_compiler -f <source_file_name> | --file <source_file_name> | -d <
 --tests: Optional argument. Create a file 'tests' that contains the detail of the executation of the compilation tests, as well as eventual errors.
 ```
 
-## Features
+# Features
 
 * integer
 * assignment
@@ -37,7 +37,7 @@ Usage: ./bin/l_compiler -f <source_file_name> | --file <source_file_name> | -d <
 * arithmetics
 * local vs global scope
 
-## Error detection
+# Error detection
 
 * excepted 'x' before 'y'
 * excepted correct statement before 'x'
@@ -53,7 +53,7 @@ Usage: ./bin/l_compiler -f <source_file_name> | --file <source_file_name> | -d <
 * too many arguments to function 'x'
 * too few arguments to function 'x'
 
-## Examples of L files
+# Examples of L files
 
 Factorial function:
 ```c
@@ -96,7 +96,7 @@ integer $v_1, integer $v_2;
 
 ```
 
-## Authors
+# Authors
 
-* Charly LAMOTHE
-* Stéphane ARCELLIER
+* Charly Lamothe
+* Stéphane Arcellier
